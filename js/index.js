@@ -3,10 +3,10 @@ let unlockedPage4 = false;
 
 function onScroll() {
 	const scrollTop = $(window).scrollTop();
-	const scTop = scrollTop + 90;
+	const scTop = scrollTop + 30;
 	const pages = [];
 
-	const page4Top = $('.page4').offset().top - 86;
+	const page4Top = $('.page4').offset().top;
 	const page4Height = $('.page4').outerHeight();
 
 	if (!lockedToPage4 && !unlockedPage4 && scrollTop >= page4Top && scrollTop < page4Top + page4Height) {
@@ -20,8 +20,13 @@ function onScroll() {
 
 	if (scrollTop > 200) {
 		$('.bt_top').css('visibility', 'visible');
+		$('header').addClass('active');
+		$('header').find('img').attr('src', '../img/logo_b.png');
+
 	} else {
 		$('.bt_top').css('visibility', 'hidden');
+		$('header').removeClass('active');
+		$('header').find('img').attr('src', '../img/logo.png');
 	}
 
 	for (let i = 0; i < $('.link_page').length; i++) {
@@ -55,7 +60,7 @@ $(window).scroll(onScroll).trigger('scroll');
 
 /* 광고 집행 문의 */
 $('.contact_link').click(function () {
-	const tar = $('.link_page').eq(4).offset().top - 86;
+	const tar = $('.link_page').eq(4).offset().top;
 	lockedToPage4 = false;
 	unlockedPage4 = true;
 	$('html, body').stop().animate({
@@ -65,7 +70,7 @@ $('.contact_link').click(function () {
 
 /* link 클릭 */
 function onNavClick() {
-	const tar = $('.link_page').eq($(this).index()).offset().top - 86;
+	const tar = $('.link_page').eq($(this).index()).offset().top;
 	lockedToPage4 = false;
 	unlockedPage4 = true;
 	$('html, body').stop().animate({
@@ -138,7 +143,7 @@ function initSlide0() {
 		observer: true,
 		observeParents: true,
 		loop: true,
-		loopedSlides: 5, 
+		loopedSlides: 5,
 		initialSlide: 0,
 		centeredSlidesBounds: true,
 		speed: 3000,

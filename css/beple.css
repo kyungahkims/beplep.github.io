@@ -181,7 +181,22 @@ header {
   z-index: 999;
   width: 100%;
   background-color: #0d6eee;
-  padding: 35px 20px;
+  padding: 28px 20px;
+}
+header.active {
+  background-color: #e6f0fe;
+  padding: 8px 20px;
+}
+header.active .wrapper nav ul li {
+  color: #659ae1;
+}
+header.active .wrapper nav ul li.active {
+  color: #0d6eee;
+}
+header.active .wrapper nav .login {
+  color: #0d6eee;
+  border: 1px solid #0d6eee;
+  background-color: #e6f0fe;
 }
 header .wrapper {
   display: -webkit-box;
@@ -260,7 +275,7 @@ header .wrapper nav .login:hover {
 }
 .page .title {
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 800;
   text-align: center;
   line-height: 1.03;
 }
@@ -375,7 +390,7 @@ header .wrapper nav .login:hover {
 /* page2 */
 .page2 {
   background-color: #fbfbfb;
-  padding: 120px 0 90px;
+  padding: 100px 0 90px;
 }
 .page2 .swiper-pagination {
   bottom: 0px;
@@ -712,7 +727,7 @@ header .wrapper nav .login:hover {
 
 /* page3 */
 .page3 {
-  padding: 90px 20px;
+  padding: 90px 20px 100px;
 }
 .page3 .wrapper .title {
   font-size: 50px;
@@ -912,7 +927,7 @@ header .wrapper nav .login:hover {
   width: 100%;
   height: 100%;
   background: url("../img/sec-04-bg.png") no-repeat top/cover;
-  padding: 120px 20px 95px;
+  padding: 110px 20px 95px;
 }
 .page4 .wrapper {
   display: -webkit-box;
@@ -925,7 +940,6 @@ header .wrapper nav .login:hover {
 .page4 .wrapper .title_wrap {
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  /* margin-right: 20px; */
 }
 .page4 .wrapper .title_wrap .title {
   font-size: 50px;
@@ -1058,7 +1072,7 @@ header .wrapper nav .login:hover {
 }
 
 .page6 {
-  padding: 130px 20px 120px;
+  padding: 100px 20px;
   background-color: #0d6eee;
 }
 .page6 .title {
