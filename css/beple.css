@@ -116,6 +116,41 @@ input[type=checkbox]:checked + label {
           box-shadow: none !important;
 }
 
+/* swal 라이브러리 */
+.custom-swal-title {
+  font-family: var(--font-family) !important;
+  font-size: 18px !important;
+  color: #222 !important;
+}
+
+.custom-swal-popup {
+  width: 320px !important;
+  font-size: 13px !important;
+  padding: 10px !important;
+}
+
+.swal2-styled.swal2-confirm {
+  padding: 8px 20px;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background-color: #0d6eee !important;
+}
+.swal2-styled.swal2-confirm:hover {
+  background-color: #0d6eee !important;
+}
+
+.swal2-styled.swal2-cancel {
+  padding: 8px 20px;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background-color: #b8b8b8 !important;
+}
+.swal2-styled.swal2-cancel:hover {
+  background-color: #b8b8b8 !important;
+}
+
 /* 공통사항 */
 a {
   display: inline-block;

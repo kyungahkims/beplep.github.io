@@ -518,3 +518,41 @@ function initCharts() {
 }
 
 initCharts();
+
+/* 문의하기 후 효과 */
+$('form .btn_wrap button').click(function () {
+	Swal.fire({
+		title: "문의하기를 등록하시겠습니까?",
+		icon: "info",
+		showCancelButton: true,
+		background: "#fff",
+		color: "#222",
+		confirmButtonText: "확인",
+		cancelButtonText: "취소",
+		customClass: {
+			title: 'custom-swal-title',
+			popup: 'custom-swal-popup',
+			icon: 'custom-swal-icon',
+			confirmButton: 'custom-swal-btn',
+			cancelButton: 'custom-swal-btn'
+		}
+	}).then((result) => {
+		if (result.isConfirmed) {
+			Swal.fire({
+				title: "문의하기가 완료되었습니다.",
+				icon: "success",
+				background: "#fff",
+				color: "#222",
+				confirmButtonText: "확인",
+				customClass: {
+					title: 'custom-swal-title',
+					popup: 'custom-swal-popup',
+					icon: 'custom-swal-icon',
+					confirmButton: 'custom-swal-btn',
+				}
+			}).then(() => {
+				$(this).addClass('active');
+			});
+		}
+	});
+});
