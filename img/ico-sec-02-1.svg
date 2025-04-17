@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="106" viewBox="0 0 106 106">
+    <circle data-name="타원 726" cx="53" cy="53" r="53" style="fill:#0d6eee"/>
+    <g data-name="그룹 7800" transform="translate(-977.826 -825.666)">
+        <circle data-name="타원 737" cx="8.921" cy="8.921" r="8.921" transform="translate(1009.692 863.095)" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:3.5px"/>
+        <circle data-name="타원 738" cx="8.921" cy="8.921" r="8.921" transform="translate(1034.117 863.095)" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:3.5px"/>
+        <path data-name="패스 13204" d="M26.425 33.564v-3.637a8.512 8.512 0 0 1 .953-3.914 8.552 8.552 0 0 0-7.605-4.644H10.56A8.558 8.558 0 0 0 2 29.927v3.637a1.105 1.105 0 0 0 1.1 1.106h24.126a1.033 1.033 0 0 0 .152-.03 1.093 1.093 0 0 1-.953-1.076z" transform="translate(1003.447 859.567)" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:3.5px"/>
+        <path data-name="패스 13205" d="M29.553 34.639a1.032 1.032 0 0 0 .152.03h24.122a1.106 1.106 0 0 0 1.105-1.105v-3.637a8.559 8.559 0 0 0-8.56-8.558h-9.213a8.555 8.555 0 0 0-7.606 4.644" transform="translate(1001.273 859.567)" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:3.5px"/>
+    </g>
+</svg>

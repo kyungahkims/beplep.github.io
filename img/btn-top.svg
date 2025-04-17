@@ -1,0 +1,32 @@
+<svg id="btn_top" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #0d6eee;
+        stroke-width: 4px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="타원_719" data-name="타원 719" class="cls-1" transform="translate(0 80) rotate(-90)">
+    <circle class="cls-3" cx="40" cy="40" r="40"/>
+    <circle class="cls-4" cx="40" cy="40" r="38"/>
+  </g>
+  <path id="패스_11898" data-name="패스 11898" class="cls-2" d="M1637.693,7068.465l13.28,13.28-13.28,13.28" transform="translate(-7041.744 1682.377) rotate(-90)"/>
+</svg>

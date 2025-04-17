@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="106" viewBox="0 0 106 106">
+    <circle data-name="타원 735" cx="53" cy="53" r="53" style="fill:#0d6eee"/>
+    <g data-name="그룹 7806">
+        <path data-name="패스 13219" d="M13.137 7.823v11.445H2.5V7.823a5.318 5.318 0 1 1 10.637 0z" transform="translate(29.777 28.771)" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.5px"/>
+        <path data-name="패스 13221" d="M41.294 2.5H10.485A5.317 5.317 0 0 1 15.8 7.821h0v36.542l.207-.207 3.8 3.8 3.8-3.8 3.8 3.8 3.8-3.8 3.8 3.8 3.8-3.8 3.8 3.8 3.8-3.8.208.207V7.82a5.32 5.32 0 0 0-5.321-5.32z" transform="translate(27.11 28.773)" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.5px"/>
+        <path data-name="사각형 6518" transform="translate(49.256 42.134)" style="fill:#fff" d="M0 0h2.998v2.998H0z"/>
+        <path data-name="사각형 6519" transform="translate(55.338 42.134)" style="fill:#fff" d="M0 0h12.545v2.998H0z"/>
+        <path data-name="사각형 6520" transform="translate(49.256 48.599)" style="fill:#fff" d="M0 0h2.998v2.998H0z"/>
+        <path data-name="사각형 6521" transform="translate(55.338 48.599)" style="fill:#fff" d="M0 0h12.545v2.998H0z"/>
+    </g>
+</svg>
