@@ -97,25 +97,6 @@ input[type=checkbox]:checked + label {
   background: url("../img/ico-check-box-on.svg") left center no-repeat;
 }
 
-/* swal */
-.custom-swal-title {
-  font-family: var(--font-family) !important;
-  font-size: 18px !important;
-  color: #222 !important;
-}
-
-.custom-swal-popup {
-  width: 280px !important;
-  font-size: 14px !important;
-  padding: 10px !important;
-}
-
-.custom-swal-btn {
-  outline: none !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-}
-
 /* swal 라이브러리 */
 .custom-swal-title {
   font-family: var(--font-family) !important;
@@ -1343,12 +1324,16 @@ footer p {
           animation: fadeInUp;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .link_page.page3.active .swiper-slide-active p {
   -webkit-animation: fadeInUp;
           animation: fadeInUp;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .link_page.page3.active .swiper-slide-active h5 {
   -webkit-animation: zoomIn;
@@ -1370,8 +1355,10 @@ footer p {
 .link_page.page4.active .swiper.type2 .swiper-slide-active .cont_list li {
   -webkit-animation: zoomIn;
           animation: zoomIn;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
 }
 
 @media (max-width: 1400px) {

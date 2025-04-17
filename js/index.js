@@ -146,7 +146,7 @@ function initSlide0() {
 		loopedSlides: 5,
 		initialSlide: 0,
 		centeredSlidesBounds: true,
-		speed: 3000,
+		speed: 4000,
 		autoplay: {
 			delay: 0,
 			disableOnInteraction: false,
@@ -168,11 +168,15 @@ const customLabelsActive = [
 ];
 
 const swiper1 = new Swiper('.swiper.type1', {
-	effect: 'slide',
+	effect: 'fade',
+	fadeEffect: {
+		crossFade: true
+	},
 	loop: true,
 	autoplay: {
-		delay: 3000,
+		delay: 5000,
 	},
+	speed: 500,
 	pagination: {
 		el: '.swiper-pagination.type1',
 		clickable: true,
@@ -210,6 +214,7 @@ function initSlide2() {
 		/* autoplay: {
 			delay: 5000,
 		}, */
+		speed: 1000,
 		spaceBetween: 30,
 		pagination: {
 			el: '.swiper-pagination.type2',
@@ -250,8 +255,9 @@ const swiper4 = new Swiper('.swiper.type4', {
 	slidesPerView: 1,
 	loop: true,
 	autoplay: {
-		delay: 5000,
+		delay: 7000,
 	},
+	speed: 500,
 	spaceBetween: 30,
 	pagination: {
 		el: '.swiper-pagination.type4',
