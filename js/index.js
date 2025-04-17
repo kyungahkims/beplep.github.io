@@ -139,7 +139,7 @@ function initSlide0() {
 		effect: 'slide',
 		direction: 'horizontal',
 		slidesPerView: 'auto',
-		spaceBetween: 40,
+		spaceBetween: 50,
 		observer: true,
 		observeParents: true,
 		loop: true,

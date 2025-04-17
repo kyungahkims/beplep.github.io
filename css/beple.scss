@@ -377,7 +377,7 @@ header {
 
 .page2_1 {
 	.swiper {
-		padding: 90px 0 85px;
+		padding: 100px 0 120px;
 		max-width: 1910px;
 
 		.swiper-wrapper {
@@ -388,8 +388,8 @@ header {
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
-			width: 440px;
-			height: 460px;
+			width: 396px;
+			height: 415px;
 			border-radius: 40px;
 			border: 1px solid #ececec;
 			background-color: #fff;
@@ -398,43 +398,44 @@ header {
 
 			&::before {
 				content: "";
-				width: 106px;
-				height: 106px;
+				width: 98px;
+				height: 98px;
 				display: inline-block;
 			}
 
 			&.slide1 {
 				&::before {
-					background: url('../img/ico-sec-02-1.svg') no-repeat center;
+					background: url('../img/ico-sec-02-1.svg') no-repeat center/contain;
 				}
 			}
 
 			&.slide2 {
 				&::before {
-					background: url('../img/ico-sec-02-2.svg') no-repeat center;
+					background: url('../img/ico-sec-02-2.svg') no-repeat center/contain;
 				}
 			}
 
 			&.slide3 {
 				&::before {
-					background: url('../img/ico-sec-02-3.svg') no-repeat center;
+					background: url('../img/ico-sec-02-3.svg') no-repeat center/contain;
 				}
 			}
 
 			&.slide4 {
 				&::before {
-					background: url('../img/ico-sec-02-4.svg') no-repeat center;
+					background: url('../img/ico-sec-02-4.svg') no-repeat center/contain;
 				}
 			}
 
 			&.slide5 {
 				&::before {
-					background: url('../img/ico-sec-02-5.svg') no-repeat center;
+					background: url('../img/ico-sec-02-5.svg') no-repeat center/contain;
 				}
 			}
 
 			h3 {
-				font-size: 40px;
+				font-size: 34px;
+				font-weight: 500;
 				font-weight: 500;
 				color: #3a3a3a;
 				margin-bottom: 5px;
@@ -443,24 +444,25 @@ header {
 			div {
 				strong {
 					display: inline-block;
-					font-size: 110px;
+					font-size: 80px;
 					color: #0d6eee;
 					margin-right: 4px;
 
 					&.m {
 						display: inline-block;
-						font-size: 80px;
-						margin: 24px 0 13px;
+						font-size: 66px;
+						margin: 11px 0 10px;
 					}
 				}
 
 				span {
-					font-size: 48px;
+					font-size: 40px;
 					font-weight: 500;
 					color: #3a3a3a;
 
 					&.PLUS {
-						font-size: 58px;
+						font-size: 44px;
+						margin-left: 2px;
 					}
 				}
 			}
