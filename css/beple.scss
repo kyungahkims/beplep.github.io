@@ -1491,7 +1491,8 @@ footer {
 				margin-bottom: 8px;
 			}
 
-			span,div {
+			span,
+			div {
 				display: flex;
 				align-items: center;
 				font-size: 14px;
@@ -2181,7 +2182,8 @@ footer {
 				flex-direction: column;
 				row-gap: 3px;
 
-				span {
+				span,
+				div {
 					line-height: 1.43;
 
 					&:not(:last-child) {
@@ -2190,6 +2192,11 @@ footer {
 							width: 0;
 						}
 					}
+				}
+
+				div {
+					flex-direction: column;
+					align-items: flex-start;
 				}
 			}
 		}

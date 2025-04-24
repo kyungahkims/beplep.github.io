@@ -1568,7 +1568,8 @@ footer ul li {
 footer ul li:not(:last-child) {
   margin-bottom: 8px;
 }
-footer ul li span, footer ul li div {
+footer ul li span,
+footer ul li div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1578,7 +1579,8 @@ footer ul li span, footer ul li div {
   font-size: 14px;
   color: #777;
 }
-footer ul li span:not(:last-child)::after, footer ul li div:not(:last-child)::after {
+footer ul li span:not(:last-child)::after,
+footer ul li div:not(:last-child)::after {
   content: "";
   width: 1px;
   height: 8px;
@@ -2174,11 +2176,22 @@ footer p {
             flex-direction: column;
     row-gap: 3px;
   }
-  footer ul li span {
+  footer ul li span,
+  footer ul li div {
     line-height: 1.43;
   }
-  footer ul li span:not(:last-child)::after {
+  footer ul li span:not(:last-child)::after,
+  footer ul li div:not(:last-child)::after {
     width: 0;
+  }
+  footer ul li div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   /* bt_top */
   .bt_top {
