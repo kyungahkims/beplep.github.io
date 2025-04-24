@@ -1374,6 +1374,18 @@ header .navi-bars.active > .bar3 {
 .page5 .swiper.type5 {
   margin: 185px 0 40px;
 }
+.page5 .swiper.type7 .swiper-slide,
+.page5 .swiper.type9 .swiper-slide {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+.page5 .swiper.type7 .swiper-slide img,
+.page5 .swiper.type9 .swiper-slide img {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
 .page5 .swiper.type6,
 .page5 .swiper.type8,
 .page5 .swiper.type10 {
@@ -1934,8 +1946,7 @@ footer p {
   .page2_2 .wrapper article .chart3 {
     position: relative;
     left: -10px;
-    height: 30px;
-    margin: 15px 0 23px;
+    margin: 15px 0 5px;
   }
   .page2_2 .wrapper article .box_wrap {
     -webkit-column-gap: 11px;

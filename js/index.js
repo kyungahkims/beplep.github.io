@@ -455,7 +455,10 @@ function updatePagination(swiperInstance) {
 }
 
 function initCharts() {
-	const getScaleFactor = (ctx) => ctx.canvas.width / 390;
+	const getScaleFactor = () => {
+		const factor = window.innerWidth / 390;
+		return Math.min(Math.max(factor, 0.8), 0.8);
+	};
 
 	const ctx1 = document.getElementById('myChart1').getContext('2d');
 	myChart1 = new Chart(ctx1, {

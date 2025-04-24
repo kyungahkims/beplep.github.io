@@ -1317,6 +1317,20 @@ header {
 		margin: 185px 0 40px
 	}
 
+	.swiper.type7,
+	.swiper.type9 {
+
+		.swiper-slide {
+			transform: translateZ(0);
+			will-change: transform;
+
+			img {
+				transform: translateZ(0);
+				will-change: transform;
+			}
+		}
+	}
+
 	.swiper.type6,
 	.swiper.type8,
 	.swiper.type10 {
@@ -1906,8 +1920,7 @@ footer {
 				.chart3 {
 					position: relative;
 					left: -10px;
-					height: 30px;
-					margin: 15px 0 23px;
+					margin: 15px 0 5px;
 				}
 
 				.box_wrap {
