@@ -1568,7 +1568,7 @@ footer ul li {
 footer ul li:not(:last-child) {
   margin-bottom: 8px;
 }
-footer ul li span {
+footer ul li span, footer ul li div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1578,7 +1578,7 @@ footer ul li span {
   font-size: 14px;
   color: #777;
 }
-footer ul li span:not(:last-child)::after {
+footer ul li span:not(:last-child)::after, footer ul li div:not(:last-child)::after {
   content: "";
   width: 1px;
   height: 8px;
@@ -2179,9 +2179,6 @@ footer p {
   }
   footer ul li span:not(:last-child)::after {
     width: 0;
-  }
-  footer ul li span .mo_ad {
-    display: block;
   }
   /* bt_top */
   .bt_top {

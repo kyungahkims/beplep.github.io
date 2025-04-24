@@ -1491,7 +1491,7 @@ footer {
 				margin-bottom: 8px;
 			}
 
-			span {
+			span,div {
 				display: flex;
 				align-items: center;
 				font-size: 14px;
@@ -2189,10 +2189,6 @@ footer {
 						&::after {
 							width: 0;
 						}
-					}
-
-					.mo_ad {
-						display: block;
 					}
 				}
 			}
