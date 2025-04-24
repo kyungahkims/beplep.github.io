@@ -110,11 +110,11 @@ $(document).ready(() => {
 });
 
 /* 모바일 슬라이드 이미지 스크롤 센터 */
-$('.page3 .slide_img2, .page3 .slide_img3, .page3 .slide_img4').each(function () {
+/* $('.page3 .slide_img2, .page3 .slide_img3, .page3 .slide_img4').each(function () {
 	let $el = $(this);
 	let scrollMiddle = ($el[0].scrollWidth - $el.innerWidth()) / 2;
 	$el.scrollLeft(scrollMiddle);
-});
+}); */
 
 /* 모바일 메뉴 클릭 숨기기*/
 $('.fix-wrap .link').click(function () {
@@ -259,9 +259,10 @@ const swiper1 = new Swiper('.swiper.type1', {
 	},
 	loop: true,
 	autoplay: {
-		delay: 5000,
+		delay: 15000,
 	},
 	speed: 500,
+	autoHeight: true,
 	pagination: {
 		el: '.swiper-pagination.type1',
 		clickable: true,
@@ -269,12 +270,12 @@ const swiper1 = new Swiper('.swiper.type1', {
 			return `<span class="${className}" data-index="${index}">${customLabels[index] || index + 1}</span>`;
 		},
 	},
-	allowTouchMove: false,
-	breakpoints: {
-		890: {
-			allowTouchMove: true,
-		}
-	},
+	allowTouchMove: true,
+	/* 	breakpoints: {
+			890: {
+				allowTouchMove: true,
+			}
+		}, */
 	on: {
 		init: function () {
 			updatePagination(this);

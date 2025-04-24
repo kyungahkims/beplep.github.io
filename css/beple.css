@@ -1050,8 +1050,8 @@ header .navi-bars.active > .bar3 {
   position: relative;
 }
 .page3 .wrapper .swiper .swiper-wrapper .swiper-slide {
-  margin-top: 70px;
   text-align: center;
+  padding-top: 70px;
 }
 .page3 .wrapper .swiper .swiper-wrapper .swiper-slide h3 {
   font-size: 30px;
@@ -1074,7 +1074,7 @@ header .navi-bars.active > .bar3 {
   -webkit-column-gap: 56px;
      -moz-column-gap: 56px;
           column-gap: 56px;
-  margin: 67px 0 115px;
+  padding: 67px 0 115px;
 }
 .page3 .wrapper .swiper .swiper-wrapper .swiper-slide .big_data > div h5 {
   font-size: 26px;
@@ -1970,7 +1970,7 @@ footer p {
     text-align: center;
   }
   .page3 .wrapper .swiper .swiper-wrapper .swiper-slide {
-    margin-top: 93px;
+    padding-top: 93px;
   }
   .page3 .wrapper .swiper .swiper-wrapper .swiper-slide h3 {
     font-size: 18px;
@@ -1987,7 +1987,7 @@ footer p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 60px 20px;
+    padding: 60px 20px;
   }
   .page3 .wrapper .swiper .swiper-wrapper .swiper-slide .big_data > div h5 {
     font-size: 18px;
@@ -2019,12 +2019,16 @@ footer p {
   .page3 .wrapper .swiper .swiper-wrapper .swiper-slide .slide_img2,
   .page3 .wrapper .swiper .swiper-wrapper .swiper-slide .slide_img3,
   .page3 .wrapper .swiper .swiper-wrapper .swiper-slide .slide_img4 {
-    margin: 40px 0;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 16px;
     overflow: auto;
   }
   .page3 .wrapper .swiper .swiper-wrapper .swiper-slide .slide_img2 img,
   .page3 .wrapper .swiper .swiper-wrapper .swiper-slide .slide_img3 img,
   .page3 .wrapper .swiper .swiper-wrapper .swiper-slide .slide_img4 img {
+    height: auto;
+    max-width: 100%;
     max-height: 397px;
   }
   .page3 .wrapper .swiper .swiper-pagination {
